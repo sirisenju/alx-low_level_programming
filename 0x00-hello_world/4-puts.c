@@ -5,10 +5,6 @@
  */
 int main(void)
 {
-	/* Declears a text of char and prints it out*/
-	char text[] = "Programming is like building a multilingual game";
-
-	puts(text);
-
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
