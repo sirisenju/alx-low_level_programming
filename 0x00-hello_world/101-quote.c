@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
  * main - Prints out the code
  * Result: Always 1 (Success)
