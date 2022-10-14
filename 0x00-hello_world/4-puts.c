@@ -1,10 +1,11 @@
 #include <stdio.h>
-/*
- * * main Serves as the entry point for the program
- ** Return By default returns zero if no erros otherwise returns non-zero value
+/**
+ * main - Printing
+ * Return: Always 0 (sucess)
  */
 int main(void)
 {
+	/* Declears a text of char and prints it out*/
 	char text[] = "Programming is like building a multilingual game";
 
 	puts(text);
