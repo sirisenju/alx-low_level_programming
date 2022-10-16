@@ -2,7 +2,7 @@
 /**
  * main - Excutes body of code
  * Return: Always 0 (Success)
- * 
+ *
  */
 int main(void)
 {
@@ -12,6 +12,7 @@ int main(void)
 	{
 		putchar(i);
 	}
+
 	putchar('\n');
 	return (0);
 }
