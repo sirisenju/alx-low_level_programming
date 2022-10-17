@@ -28,6 +28,9 @@ int main(void)
 					{
 						break;
 					}
+
+					putchar(',');
+					putchar(' ');
 				}
 
 				k++;
@@ -40,7 +43,7 @@ int main(void)
 
 		j++;
 	}
-
+	putchar('\n');
 	return (0);
 
 }
