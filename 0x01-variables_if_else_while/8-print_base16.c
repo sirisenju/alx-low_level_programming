@@ -1,4 +1,4 @@
-#include <stdio.sh>
+#include <stdio.h>
 /**
  * main - executes code
  * Return: Always 0 (Success)
