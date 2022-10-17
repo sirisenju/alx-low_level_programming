@@ -30,15 +30,17 @@ int main(void)
 					}
 				}
 
-				k++
+				k++;
 
 			}
 
-			i++
+			i++;
 
 		}
 
-		j++
+		j++;
 	}
+
+	return (0);
 
 }
