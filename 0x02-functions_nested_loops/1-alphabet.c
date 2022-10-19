@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * main - executes the code
+ * print_alphabet - executes the code
+ *
+ * Description - prints a to z using while loop
  * Return: Always 0 (Success)
  *
  */
