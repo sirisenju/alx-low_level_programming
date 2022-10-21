@@ -2,7 +2,8 @@
 
 /**
  * more_numbers - executes the body of the code
- * Return: 0 successful
+ * Return: void
+ *
  */
 
 void more_numbers(void)
