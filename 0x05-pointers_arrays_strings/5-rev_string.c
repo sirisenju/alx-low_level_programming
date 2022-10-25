@@ -9,27 +9,28 @@
 
 void rev_string(char *s)
 {
-	int count = 0, i, j;
+	int count = 0, x, y;
 
-	char *str, temp;
+	char *string, z;
 
 	while (count >= 0)
 	{
-		if (s[count] == '\n')
+		if (s[count] == '\0')
 		{
 			break;
 		}
 		count++;
 	}
-	str = s;
 
-	for (i = 0; i < (count - 1); i++)
+	string = s;
+
+	for (x = 0; x < (count - 1); x++)
 	{
-		for (j = i + 1; j > 0; j--)
+		for (y = x + 1; y > 0; y--)
 		{
-			temp = *(str + j);
-			*(str + j) = *(str + (j - 1));
-			*(str + (j - 1)) = temp;
+			z = *(string + y);
+			*(string + y) = *(string + (y - 1));
+			*(string + (y - 1)) = z;
 		}
 	}
 }
