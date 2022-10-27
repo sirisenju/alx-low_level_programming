@@ -2,19 +2,19 @@
 
 /**
  * string_toupper - returns the uppercase of input string
- * @str: the input string
+ * @string: the input string
  * Return: void
  */
 
-char *string_toupper(char *str)
+char *string_toupper(char *string)
 {
-	while (*(str + num) != '\0')
+	while (*(string + num) != '\0')
 	{
-		if ((*(str + num) >= 97) && (*(str + num) <= 122))
+		if ((*(string + num) >= 97) && (*(string + num) <= 122))
 		{
-			*(str + num) = *(str + num) - 32;
+			*(string + num) = *(string + num) - 32;
 		}
 		num++;
 	}
-	return (str);
+	return (string);
 }
