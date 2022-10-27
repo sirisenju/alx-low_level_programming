@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _strcmp - returns the comperison of 2 strings
+ * _strcmp - returns the comperison of two strings
  * @s1: first string
  * @s2: second string
- * Return: returns the compersion of 2 strings
+ * Return: returns the compersion of two strings
+ *
  */
 
 int _strcmp(char *s1, char *s2)
