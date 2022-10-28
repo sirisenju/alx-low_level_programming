@@ -17,7 +17,7 @@ void print_number(int n)
 	}
 	else
 	{
-		num1 =n;
+		num1 = n;
 	}
 	num2 = num1;
 	count = 1;
