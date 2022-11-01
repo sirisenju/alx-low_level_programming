@@ -25,5 +25,5 @@ unsigned int _strspn(char *s, char *accept)
 				if (num2 == a_len - 1)
 					goto exit;
 	}
-exit: return (length);
+	exit: return (length);
 }
