@@ -4,7 +4,8 @@
  * main - main body of the code
  * @argc: contains the number of arguments
  * @argv: pointer of pointers containing strings
- * Return: 0 on success */
+ * Return: 0 on success
+ */
 
 int main(int argc, char *argv[])
 {
