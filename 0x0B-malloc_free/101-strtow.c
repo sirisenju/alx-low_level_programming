@@ -11,8 +11,7 @@ char **strtow(char *str);
  */
 int word_len(char *str)
 {
-	int index = 0;
-	int len = 0;
+	int index = 0, len = 0;
 
 	while (*(str + index) && *(str + index) != ' ')
 	{
@@ -81,7 +80,7 @@ char **strtow(char *str)
 		}
 		for (l = 0; l < letters; l++)
 			strings[w][l] = str[index++];
-		string[w][l] = '\0';
+		strings[w][l] = '\0';
 	}
 	strings[w] = NULL;
 	return (strings);
