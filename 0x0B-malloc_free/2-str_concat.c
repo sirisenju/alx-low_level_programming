@@ -10,7 +10,7 @@ char *str_concat(char *s1, char *s2)
 {
 	char *word;
 	unsigned int  num1, num2, num3, max;
-
+i
 	if (s1 == NULL)
 		s1 = ""; /* null string*/
 	if (s2 == NULL)
@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 
-	for (num3 = 0; num3 <= max; num3++)
+	for (num3 = 0; num3 < num1; num3++)
 		word[num3] = s1[num3];
 	max = num2;
 
