@@ -11,7 +11,7 @@ char *_strdup(char *str)
 	char *word;
 
 	if (str == NULL)
-		return (null);
+		return (NULL);
 
 	for (num1 = 0; str[num1] != '\0'; num1++)
 	;
