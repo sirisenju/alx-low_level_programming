@@ -1,4 +1,4 @@
-#include <string.h>
+#include<string.h>
 #include "main.h"
 /**
  * isnumber - checks if a string is a number
@@ -53,6 +53,7 @@ char *mul2(char *s1, char *s2)
 			res[r1 + r2] += cry;
 		r1++;
 	}
+
 	i = l1 + l2 - 1;
 	while (res[i] == 0 && i >= 0)
 		i--;
@@ -91,7 +92,9 @@ int main(int argc, char **argv)
 		print("Error");
 		exit(98);
 	}
+
 	res = mul2(argv[1], argv[2]);
+
 	if (res == NULL)
 	{
 		print("Error");
