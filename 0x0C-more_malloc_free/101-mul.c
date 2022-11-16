@@ -50,10 +50,10 @@ char *mul2(char *s1, char *s2)
 			r2++;
 		}
 		if (cry > 0)
-			res[r1 + r2] = sum % 10;
+			res[r1 + r2] += cry;
 		r1++;
 	}
-	i = 11 + 12 - 1;
+	i = l1 + l2 - 1;
 	while (res[i] == 0 && i >= 0)
 		i--;
 	if (i < 0)
