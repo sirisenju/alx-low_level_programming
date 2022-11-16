@@ -7,7 +7,6 @@
  * @n: size of mem
  * Return: copied meory
  */
-
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int num;
@@ -23,7 +22,6 @@ char *_memcpy(char *dest, char *src, unsigned int n)
  * @new_size: new size in bytes of the new memory block
  * Return: ptr or null
  */
-
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	void *ptr2;
@@ -36,9 +34,11 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		ptr2 = malloc(new_size);
 		if (ptr2 == NULL)
 			return (NULL);
+
 		free(ptr);
 		return (ptr2);
 	}
+
 	if (new_size == 0 && ptr != NULL)
 	{
 		free(ptr);
