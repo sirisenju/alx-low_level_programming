@@ -1,7 +1,6 @@
 #ifndef STRUCTS
 #define STRUCTS
 /**
- *
  * struct dog - description of pet
  * @name: pet name
  * @age: pet age
